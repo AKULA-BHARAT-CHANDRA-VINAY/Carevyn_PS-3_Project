@@ -1,0 +1,26 @@
+# Project Requirements: Autonomous AI Agent (Carevyn PS-3)
+
+1. Functional Requirements:
+   - AI Reasoning: Natural Language decomposition using Gemini 1.5 Flash.
+   - Intelligent Scheduling: Conflict checking and automated booking.
+   - Multi-Channel Notifications: Email (Nodemailer) and Push (FCM).
+   - Execution Logging: Real-time UI progress monitoring.
+
+2. Frontend Requirements (AgentApp):
+   - React Native (Expo SDK 54)
+   - React Navigation (Tabs + Stack)
+   - Firebase Messaging (@react-native-firebase/messaging)
+   - Custom CSS-in-JS Styling
+
+3. Backend Requirements (AgentBackend):
+   - Node.js & Express.js
+   - @google/generative-ai (Gemini AI)
+   - firebase-admin (Push notifications)
+   - nodemailer (SMTP email)
+   - cors, express-rate-limit, dotenv
+
+4. Infrastructure & Keys:
+   - Google Gemini API Key
+   - Firebase Service Account Key
+   - Gmail App Password for SMTP
+   - Physical device with Expo Go (for FCM testing)
