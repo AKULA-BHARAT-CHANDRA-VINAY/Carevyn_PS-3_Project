@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "AgentApp",
+    "slug": "AgentApp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0A0A0F"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#0A0A0F",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png",
+        "package": "com.AgentApp.autonomousagent",
+        "permissions": [
+          "INTERNET"
+        ]
+      },
+      "package": "com.AgentApp.autonomousagent",
+      "googleServicesFile": "./google-services.json"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "ceb3cdb3-1d88-4466-83d9-636fa07c6cb4"
+      }
+    }
+  }
+}

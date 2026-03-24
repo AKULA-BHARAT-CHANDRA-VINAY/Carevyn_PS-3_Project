@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "352376663700",
+    "project_id": "agentapp-a82c9",
+    "storage_bucket": "agentapp-a82c9.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:352376663700:android:b054e356aa450776edce81",
+        "android_client_info": {
+          "package_name": "com.AgentApp.autonomousagent"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDoI5V6O6bFCxFzv8UW4Nz9mBERS5v07Vg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
